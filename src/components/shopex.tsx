@@ -1,6 +1,5 @@
 import React from 'react';
 
-
 const Shopex = () => {
   const services = [
     {
@@ -26,7 +25,7 @@ const Shopex = () => {
   ];
 
   return (
-    <section className="text-center py-16">
+    <section className="text-center py-16 bg-white">
       <h2 className="text-3xl font-bold text-purple-700 mb-10">
         What Shopex Offer!
       </h2>
