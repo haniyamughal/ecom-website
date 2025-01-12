@@ -25,7 +25,7 @@ const products = [
 
 export default function TopCategory() {
   return (
-    <section className="max-w-screen-xl mx-auto pt-24 px-4 pb-40">
+    <section className="max-w-screen-xl mx-auto pt-24 px-4 pb-40 bg-white">
       <h1 className="text-[#1A0B5B] font-josifen text-3xl text-center font-bold">
         Top Categories
       </h1>
@@ -42,7 +42,7 @@ export default function TopCategory() {
                 className="transition-transform hover:scale-105 duration-700 hover:rounded-md object-contain"
               />
             </div>
-            <h1 className="font-josifen font-bold text-center">{product.name}</h1>
+            <h1 className="font-josifen font-medium text-blue-900 text-center">{product.name}</h1>            
           </div>
         ))}
       </div>
