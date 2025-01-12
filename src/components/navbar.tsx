@@ -73,7 +73,7 @@ export default function Navbar() {
               >
                 <Link 
                   href={`/${item.toLowerCase()}`} 
-                  className="block py-2 md:py-0 hover:text-pink-600"
+                  className="block py-2 md:py-0 text-black hover:text-pink-600"
                 >
                   {item}
                 </Link>
